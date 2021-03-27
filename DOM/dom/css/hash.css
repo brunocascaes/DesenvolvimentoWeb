@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    background-color: #0D262D;
+    color: black;
+    height: 100%;
+    font-family: monospace;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100%;
+}
+
+[jogo-da-velha] {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 5px solid dodgerblue;
+    height: 75vh;
+    width: 1200px;
+    margin: 5vh;
+}
+
+.bloco {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid #000;
+    background: #fff;
+    font-size: 50px;
+}
+
+.pontuacao {
+    font-size: 3vh;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 5px solid dodgerblue;
+    height: 10vh;
+    width: 1200px;
+    margin: 0;
+    background-color :rgb(61, 59, 59);
+}
+
+.jogador {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.destaque {
+    background-color: lightslategray;
+}

@@ -1,0 +1,16 @@
+{
+  "name": "funcionarios",
+  "version": "1.0.0",
+  "description": "descricao",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "bruno cascaes alves",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {},
+  "keywords": []
+}
